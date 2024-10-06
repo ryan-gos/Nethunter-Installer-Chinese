@@ -1,0 +1,17 @@
+name = "ryan-gos"
+main = "src/src/index.js"
+compatibility_date = "2023-08-23"
+workers_dev = true
+
+[[routes]]
+pattern = "ryangos.us.kg"
+zone_name = "ryangos.us.kg"
+
+[[d1_databases]]
+binding = "DATABASE"
+database_id = "b9ae7e50-70aa-4f85-8a81-2286f621c86e"
+database_name = "ryan-gos-db"
+
+[[kv_namespaces]]
+id = "03c615d9ad564ae588b7cf6895a26eee"
+binding = "kv"
